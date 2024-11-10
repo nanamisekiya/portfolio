@@ -1,0 +1,13 @@
+#contact {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 10px;
+}
