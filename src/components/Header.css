@@ -1,11 +1,37 @@
 header {
-  background-color: #333;
-  color: #fff;
+  text-align: center;
   padding: 20px;
+  background: linear-gradient(to right, #ff6fb1, #ffd36b);
 }
 
-header nav a {
+.header-title h1 {
+  font-size: 64px;
+  font-weight: bold;
   color: #fff;
-  margin-right: 15px;
-  text-decoration: none;
+  text-shadow: 2px 2px #ff6fb1;
+  margin-top: 20px;
+  text-align: center;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: #ff8fcf;
+  border-radius: 25px;
+  transition: 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+  background: #ffd36b;
+  transform: scale(1.1);
+}
+

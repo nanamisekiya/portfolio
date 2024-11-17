@@ -4,12 +4,14 @@ import './Header.css';
 const Header: React.FC = () => {
   return (
     <header>
-      <h1>私のポートフォリオ</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div className="header-title">
+      <h1>Portfolio</h1>
+    </div>
+      <nav className="navbar">
+      <a href="#about" className="nav-link">ABOUT</a>
+      <a href="#projects" className="nav-link">PROJECTS</a>
+      <a href="#contact" className="nav-link">CONTACT</a>
+    </nav>
     </header>
   );
 };
