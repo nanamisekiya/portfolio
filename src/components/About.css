@@ -2,8 +2,10 @@
 #about {
   padding: 50px;
   background: linear-gradient(to bottom, #ffe6f3, #d1f9ff);
-  font-family: 'Arial', sans-serif;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #333;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .about-container {
