@@ -2,13 +2,13 @@ import React from 'react';
 import './About.css';
 
 const About: React.FC = () => {
-  const base = process.env.GITHUB_PAGES ? '/portfolio/' : './';
+  const base = process.env.GITHUB_PAGES ? '/portfolio' : './';
 
   return (
     <section id="about">
       <div className="about-container">
         <img
-          src={`${base}/girl.jpg`}
+          src={`${base}/girl.png`}
           alt="About me illustration"
           className="about-image"
         />

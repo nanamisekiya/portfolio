@@ -6,7 +6,7 @@ export default defineConfig({
     'process.env': {}
   },
   base: process.env.GITHUB_PAGES
-  ? '/portfolio/'
+  ? '/portfolio'
   : './',
   plugins: [react()],
 });
