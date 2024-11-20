@@ -1,0 +1,34 @@
+#account {
+  padding: 5px;
+  background-color: #ffeff9;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+}
+
+.account-title {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 2.5rem;
+  color: #ff69b4;
+  text-shadow: 2px 2px #ffd1ec;
+  margin-bottom: 10px;
+}
+
+.account-links {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.account-links li {
+  margin-bottom: 40px;
+}
+
+.account-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff4081;
+}
